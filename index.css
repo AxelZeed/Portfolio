@@ -1,0 +1,159 @@
+body{
+    font-family:Arial, Helvetica, sans-serif ;
+    background-color: rgb(227, 235, 245);
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 99%;
+    position: fixed;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a9acb1;
+    border-radius: 26px;
+}
+  
+.navbar-item {
+    font-family: nexa;
+    font-weight: bold;
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 36px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+}
+
+
+.home-screen {
+    height: 1100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.picture, .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture {
+    margin: 20px;
+}
+
+.picture img{
+    width: 350px;
+    height: 350px;
+}
+
+.description {
+    width: 60%;
+    height: auto;
+    margin: 20px;
+    font-size: 25px;
+    color: white;
+}
+
+.button {
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button a{
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.navbar-item:hover{
+    background-color: rgb(70, 71, 82);
+}
+
+
+.footer {
+    background-color: #636363;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures content fits on one line if needed */
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    max-width: 80px;
+    height: auto;
+}
+
+.social-media a{
+    margin: auto 20px;
+}
+
+.social-media img {
+    max-height: 40px;
+    width: auto;
+}
+
+.footer-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links i {
+    font-size: 20px;
+}
+
+.footer-copyright {
+    text-align: right;
+}
+
+
