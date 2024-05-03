@@ -101,6 +101,26 @@ body{
     background-color: rgb(70, 71, 82);
 }
 
+.header_video{
+    margin : 100px auto 5px auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.header_video_frame{
+    padding: 0 4px;
+    overflow: hidden;
+}
+
+.header_video_frame_column{
+    padding: 0 4px;
+}
+
+.header_video_frame_column iframe{
+    margin : auto auto 100px;
+    border-radius: 10px;
+}
+
 
 .footer {
     background-color: #636363;
